@@ -1540,4 +1540,45 @@
       font-weight: 600;
   }
 
- 
+  @media screen and (max-width: 600px), screen and (orientation: portrait) {
+      .book-container.show {
+          transform: scale(0.55) translateY(120px) !important;
+      }
+      .content-display {
+          width: 90vw !important;
+          min-height: 60px !important;
+          max-height: 100px !important;
+          padding: 15px 10px !important;
+          top: 10px !important;
+      }
+      .content-display p {
+          font-size: 15px !important;
+          line-height: 1.4 !important;
+      }
+      .music-control {
+          top: 10px !important;
+          right: 10px !important;
+          width: 35px !important;
+          height: 35px !important;
+      }
+      .settings-button {
+          top: 10px !important;
+          right: 55px !important;
+          width: 35px !important;
+          height: 35px !important;
+      }
+      .photo {
+          width: 80px !important;
+          height: 80px !important;
+      }
+      .book {
+          margin: 0 auto;
+      }
+      .page-config-close {
+          width: 25px !important;
+          height: 25px !important;
+          line-height: 25px !important;
+          top: 2px !important;
+          right: 2px !important;
+      }
+  }
