@@ -2,7 +2,7 @@ let pages = [];
 
 // Global settings - Hardcoded for Wan
 window.settings = {
-    music: './public/music/music2.mp3', // user provided music2.mp3
+    music: './Public/music/music2.mp3', // user provided music2.mp3
     countdown: 3,
     matrixText: 'HAPPYBIRTHDAYWAN',
     matrixColor1: '#ffb6c1', // Pink
@@ -14,12 +14,12 @@ window.settings = {
     enableHeart: true,
     isSave: false,
     pages: [
-        { image: './public/image/bukudepan.jpg' },
-        { image: './public/image/WhatsApp Image 2026-03-19 at 22.51.45.jpeg' },
-        { image: './public/image/WhatsApp Image 2026-03-19 at 22.51.45 (1).jpeg', content: 'Happy Birthday Wan 💗\n\nHope your day is just as special as you are!' },
-        { image: './public/image/WhatsApp Image 2026-03-19 at 22.51.45 (2).jpeg' },
-        { image: './public/image/WhatsApp Image 2026-03-19 at 23.19.17.jpeg', content: 'As long as you’re smiling, I’m happy.' },
-        { image: './public/image/WhatsApp Image 2026-03-19 at 23.19.18.jpeg', content: 'I will always be here for you.\nHappy Birthday to someone who makes my life so much better just by being in it' }
+        { image: './Public/image/bukudepan.jpg' },
+        { image: './Public/image/wan3.jpeg' },
+        { image: './Public/image/wan1.jpeg', content: 'Happy Birthday Wan 💗\n\nHope your day is just as special as you are!' },
+        { image: './Public/image/wan2.jpeg' },
+        { image: './Public/image/wan4.jpeg', content: 'As long as you’re smiling, I’m happy.' },
+        { image: './Public/image/wan5.jpeg', content: 'I will always be here for you.\nHappy Birthday to someone who makes my life so much better just by being in it' }
     ]
 };
 
